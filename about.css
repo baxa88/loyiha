@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.container {
+  padding-top: 5%;
+  text-align: center;
+  width: 100%;
+  height: 550px;
+  background-color: rgb(245, 234, 137);
+}
+.container a {
+  font-weight: bold;
+}
+.image {
+  width: 550px;
+  height: 400px;
+}
+.click-img {
+  margin-right: 20%;
+  margin-left: 20%;
+}
