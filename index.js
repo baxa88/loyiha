@@ -1,4 +1,14 @@
 window.addEventListener("DOMContentLoaded", () => {
+  let options = {
+    strings: [
+      "<i>Siz Agro-olam saytiga xush </i>kelibsiz. ",
+      "&amp; Bundan xursandmiz",
+    ],
+    typeSpeed: 80,
+  };
+
+  let typed = new Typed(".element", options);
+
   // Api-section
 
   const api = {
@@ -115,8 +125,8 @@ window.addEventListener("DOMContentLoaded", () => {
     loader.style.opacity = "0";
     setTimeout(function () {
       loader.style.display = "none";
-    }, 1000);
-  }, 1500);
+    }, 8000);
+  }, 8000);
 
   //   ! Loader
 
@@ -192,7 +202,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
   modalClose.addEventListener("click", closeModal);
 
-  const modalTimer = setTimeout(openModal, 5000);
+  const modalTimer = setTimeout(openModal, 12000);
 
   modal.addEventListener("click", (e) => {
     if (e.target == modal) {
