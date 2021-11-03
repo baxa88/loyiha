@@ -6,27 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <div class="loader">
+      <div class="lds-ring">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
     <!-- About-section -->
     <div id="bosh-sahifa" class="container">
       <div class="navbar">
-        <img src="./img/service-1.png" alt="" />
+        <img src="./img/logo/logo5.png" alt="" />
         <div class="nav">
           <a href="#bosh-sahifa">Bosh sahifa</a>
           <a href="#mening-bog'im">Mening bog'im</a>
+          <a href="#urug'lar">Urug'lar</a>
           <a href="#issiqhona">Issiqhona</a>
+          <a href="#ob-havo">Ob-havo</a>
           <a href="#poliz">Poliz</a>
+          <a href="#himoya">Himoya</a>
         </div>
       </div>
     </div>
     <div class="about">
-      <h1>Lorem ipsum dolor sit !</h1>
+      <div class="header-items">
+        <div class="header-item item-active">Bosh sahifa</div>
+        <div class="header-item">Bog'</div>
+        <div class="header-item">Issiqhona</div>
+        <div class="header-item">Poliz</div>
+        <hr />
+      </div>
+
+      <div class="tabcontents">
+        <div class="tabcontent">
+          <img src="./img/bg-img1.jpg" alt="" />
+          <div class="tabcontent-descr">
+            Qishloq xoʻjaligi — inson xoʻjalik faoliyatining dastlabki
+            turlaridan biri. Uning kelib chiqishi tosh davri oxiriga borib
+            taqaladi. Bu davrda inson xoʻjalik va boshqa ehtiyojlarini qondirish
+            uchun yerni oddiy qurollar bilan ishlagan, baʼzi xayvonlarni
+            xonakilashtira boshlagan. Asrlar davomida turli sharoitlar taʼsirila
+            dehqonchilik tizimi oʻzgargan va takomillashgan; hayvonlarning
+            foydali xususiyatlari parvarishlangan, koʻplab zotlari
+            yetishtirilgan.
+          </div>
+        </div>
+        <div class="tabcontent">
+          <img src="./img/bg-img4.jpg" alt="" />
+          <div class="tabcontent-descr">
+            Bogʻdorchilik, mevachilik — 1 qishloq xoʻjaligi ning meva, uzum va
+            rezavor mevalarni yetishtiradigan muhim sohasi. Aholining meva va
+            meva mahsulotlariga, sanoatning meva xom ashyosiga boʻlgan
+            ehtiyojlarini qondirishga xizmat qiladi. Sof B. (olma, nok, oʻrik,
+            gilos va boshqa yetishtirish) va koʻchatchilik (koʻchatzorlarda
+            mevali daraxtlar koʻchatlari yetishtirish) tarmoqlariga boʻlinadi.
+          </div>
+        </div>
+        <div class="tabcontent">
+          <img src="./img/bg-img2.jpg" alt="" />
+          <div class="tabcontent-descr">
+            Issiqxona — noqulay iqlim sharoitida ekinlarga sunʼiy muhit
+            (harorat, yorugʻlik, namlik va b.) yaratadigan inshoot. Asosan,
+            mavsumdan tashqari davrlarda mahsulot yetishtirish, issiqxona va
+            ochiq dala uchun koʻchatlar oʻstirishga xizmat qiladi. I. oynaband
+            yoki polimer plyonka, stekloplast va h. k. bilan oʻralgan boʻladi.
+            Yogʻoch yoki temir, poʻlat, alyuminiy kabi metall us-kunalardan
+            tiklanadi.
+          </div>
+        </div>
+        <div class="tabcontent">
+          <img src="./img/bg-img3.jpg" alt="" />
+          <div class="tabcontent-descr">
+            Zarari: Kolorado lichinkasi va qo‘ng‘izi bargni yeb shikastlaydi.
+            Har tup kartoshka o‘simligida 20-40 dona lichinka va qo‘ng‘iz
+            mavjudligida barglar 50-100% nobud bo‘lishi mumkin. Kurash
+            choralari: Kolorado qo‘ng‘iziga qarshi erta bahorda qishlovdan
+            chiqqan qo‘ng‘izlarning kartoshka bargiga tuxum qo‘yish davrida
+            ichdan taʼsir etuvchi insektitsidlar bilan kimyoviy ishlov o‘tkazish
+            zarur.
+          </div>
+        </div>
+      </div>
     </div>
     <!-- !About-section -->
     <!-- Land-section -->
     <div id="mening-bog'im" class="land-section">
       <h2>Mening bog'im</h2>
+      <button data-modal="" type="button">Fikringiz</button>
       <div class="my-land">
         <div class="land-item">
           <div class="box-img">
@@ -156,9 +233,196 @@
       </div>
     </div>
     <!-- !Land-section -->
+    <!-- Promotion-section -->
+    <div id="urug'lar" class="promotion">
+      <h2 class="promo-h2">Urug'lar</h2>
+      <div class="promotion-text">
+        <div class="promotion-descr">
+          <div class="promotion-items">
+            <div class="promotion-item item-active">Bodring</div>
+            <div class="promotion-item">Pomidor</div>
+            <div class="promotion-item">Turp</div>
+            <div class="promotion-item">Sabzi</div>
+            <div class="promotion-item">Sholg'om</div>
+            <div class="promotion-item">Rediska</div>
+            <div class="promotion-item">Kartoshka</div>
+            <div class="promotion-item">Piyoz</div>
+            <div class="promotion-item">Chesnok</div>
+          </div>
+          <div class="promotion-descr_text">
+            <div class="promotion-descr_content">
+              <img
+                src="./img/issiqhona/bod-kuchat.jpg"
+                class="promotion-descr_img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, iste? Quo, minima officiis nemo adipisci optio ab,
+                assumenda enim sunt excepturi velit praesentium exercitationem
+                ipsum qui minus! Magni nesciunt excepturi expedita asperiores
+                quae molestias dolorum, quam ipsum quo voluptas veniam!
+              </p>
+            </div>
+            <div class="promotion-descr_content">
+              <img
+                src="./img/issiqhona/qulpinoy.jpg"
+                class="promotion-descr_img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                quam rem voluptatibus officiis provident sint, perferendis velit
+                similique possimus illo quae nesciunt sed quaerat consequuntur
+                quisquam exercitationem. Fugiat, porro suscipit modi dolor eius
+                soluta provident facilis incidunt explicabo tempora. Eius
+                voluptas eligendi modi reprehenderit repellat dignissimos vel
+                tempora voluptates numquam assumenda ab vitae neque non eveniet
+                et porro, consequuntur vero. Sapiente, iste? Quo, minima
+                officiis nemo adipisci optio ab, assumenda enim sunt excepturi
+                velit praesentium exercitationem ipsum qui minus! Magni nesciunt
+                excepturi expedita asperiores quae molestias dolorum, quam ipsum
+                quo voluptas veniam!
+              </p>
+            </div>
+            <div class="promotion-descr_content">
+              <img
+                src="./img/issiqhona/bodr-kuchat2.jpg"
+                class="promotion-descr_img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                aliquid neque tempore accusantium nobis fugiat expedita nostrum
+                rem dolorem inventore, maxime commodi natus animi quos deleniti
+                reprehenderit adipisci quas! Voluptatem magnam modi praesentium
+                sunt obcaecati veniam officiis doloremque iste ex? Hic dolores
+                magni quaerat, maxime ratione tempore magnam iure omnis quasi
+                delectus adipisci! Atque, maiores! Voluptas tempora sed quia
+                autem voluptate itaque dolor ipsum accusantium maxime
+                repudiandae, voluptatibus quidem! Quam. Sapiente, iste? Quo,
+                minima officiis nemo adipisci optio ab, assumenda enim sunt
+                excepturi velit praesentium exercitationem ipsum qui minus!
+                Magni nesciunt excepturi expedita asperiores quae molestias
+                dolorum, quam ipsum quo voluptas veniam!
+              </p>
+            </div>
+            <div class="promotion-descr_content">
+              <img
+                src="./img/issiqhona/bodr-utqizish-sxema.gif"
+                class="promotion-descr_img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, iste? Quo, minima officiis nemo adipisci optio ab,
+                assumenda enim sunt excepturi velit praesentium exercitationem
+                ipsum qui minus! Magni nesciunt excepturi expedita asperiores
+                quae molestias dolorum, quam ipsum quo voluptas veniam!lorem10
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Molestias, tempora.
+              </p>
+            </div>
+            <div class="promotion-descr_content">
+              <img
+                src="./img/issiqhona/bodr1.jpg"
+                class="promotion-descr_img"
+              />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Facilis totam culpa repudiandae sunt et enim? Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Sapiente, iste? Quo,
+                minima officiis nemo adipisci optio ab, assumenda enim sunt
+                excepturi velit praesentium exercitationem ipsum qui minus!
+                Magni nesciunt excepturi expedita asperiores quae molestias
+                dolorum, quam ipsum quo voluptas veniam!
+              </p>
+            </div>
+            <div class="promotion-descr_content">
+              <img
+                src="./img/issiqhona/pomi-ekish.jpg"
+                class="promotion-descr_img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, iste? Quo, minima officiis nemo adipisci optio ab,
+                assumenda enim sunt excepturi velit praesentium exercitationem
+                ipsum qui minus! Magni nesciunt excepturi expedita asperiores
+                quae molestias dolorum, quam ipsum quo voluptas veniam!
+              </p>
+            </div>
+            <div class="promotion-descr_content">
+              <img
+                src="./img/issiqhona/tomat-ekish-sxema.jpg"
+                class="promotion-descr_img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, iste? Quo, minima officiis nemo adipisci optio ab,
+                assumenda enim sunt excepturi velit praesentium exercitationem
+                ipsum qui minus! Magni nesciunt excepturi expedita asperiores
+                quae molestias dolorum, quam ipsum quo voluptas veniam!lorem80
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptatum iure perferendis repudiandae corporis aut recusandae
+                temporibus, aperiam placeat incidunt a animi magnam rerum qui
+                laborum saepe ullam unde sapiente optio explicabo? Sit eius
+                molestiae atque ratione officia consequatur autem ipsa
+                voluptatem provident repellendus excepturi, ducimus magni
+                nostrum aliquid consequuntur deserunt eaque dignissimos delectus
+                nesciunt vel eligendi perspiciatis soluta. Nulla omnis eaque
+                incidunt minus architecto, corrupti quo, odit fugit earum quam
+                beatae, enim adipisci doloremque assumenda alias sint recusandae
+                laboriosam unde.
+              </p>
+            </div>
+            <div class="promotion-descr_content">
+              <img
+                src="./img/issiqhona/tomat1.jpg"
+                class="promotion-descr_img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, iste? Quo, minima officiis nemo adipisci optio ab,
+                assumenda enim sunt excepturi velit praesentium exercitationem
+                ipsum qui minus! Magni nesciunt excepturi expedita asperiores
+                quae molestias dolorum, quam ipsum quo voluptas veniam!lorem20
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ut
+                inventore expedita qui sint nam esse enim. Ad, animi veniam!
+              </p>
+            </div>
+            <div class="promotion-descr_content">
+              <img
+                src="./img/issiqhona/tomat-ekish-sxemasi.jpg"
+                class="promotion-descr_img"
+              />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente, iste? Quo, minima officiis nemo adipisci optio ab,
+                assumenda enim sunt excepturi velit praesentium exercitationem
+                ipsum qui minus! Magni nesciunt excepturi expedita asperiores
+                quae molestiaslorem30 Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Cupiditate molestias architecto a laudantium
+                beatae, voluptatem cumque ad quos quo reiciendis excepturi
+                corporis officiis deserunt repudiandae deleniti quidem odit,
+                laborum suscipit. dolorum, quam ipsum quo voluptas veniam!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="promotion-timer">
+          <div class="title">Urug'ni ekish uchun</div>
+          <div class="timer">
+            <div class="timer-block"><span id="days">90</span>kun</div>
+            <div class="timer-block"><span id="hours">08</span>soat</div>
+            <div class="timer-block"><span id="minutes">45</span>minut</div>
+            <div class="timer-block"><span id="seconds">34</span>sekund</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ! Promotion-section -->
     <!-- Greenhouse-section -->
     <div id="issiqhona" class="greenhouse">
       <h2>Issiqhona</h2>
+      <button data-modal="" type="button">Fikringiz</button>
       <div class="my-land">
         <div class="land-item">
           <div class="box-img">
@@ -288,9 +552,46 @@
       </div>
     </div>
     <!-- !Greenhouse-section -->
+    <!-- Main-section -->
+    <div id="ob-havo" class="container-app">
+      <div class="app-wrap">
+        <main>
+          <section class="location">
+            <div class="city">Tashkent,UZ</div>
+            <div class="data-app">Yakshanba 31 Oktyabr 2021</div>
+          </section>
+          <div class="main-temp">
+            <div class="temp">8 <span> °C</span></div>
+            <div class="weather">Fog</div>
+            <div class="hi-low">19 °C / 23 °C</div>
+          </div>
+        </main>
+        <header>
+          <input
+            type="text"
+            autocomplete="off"
+            class="search-box"
+            placeholder="Shahar nomini yozing..."
+          />
+        </header>
+      </div>
+      <div class="slide-container">
+        <div class="slides">
+          <img src="./img/issiqhona/qor-parnik.jpg" alt="" />
+          <img src="./img/issiqhona/tomat4.jpg" alt="" />
+          <img src="./img/bg-img7.webp" alt="" />
+          <img src="./img/bg-img6.jpg" alt="" />
+          <img src="./img/bg-img4.jpg" alt="" />
+        </div>
+      </div>
+      <img src="./img/icon/next2.png" class="next" alt="" />
+      <img src="./img/icon/prev2.png" class="prev" alt="" />
+    </div>
+    <!-- !Main-section -->
     <!--Melons-section -->
     <div id="poliz" class="melons">
       <h2>Poliz</h2>
+      <button data-modal="" type="button">Fikringiz</button>
       <div class="my-land">
         <div class="land-item">
           <div class="box-img">
@@ -432,5 +733,134 @@
     </div>
 
     <!-- !Melons-section -->
+
+    <!-- Modal-section -->
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <form action="#">
+            <div class="modal-close">&times;</div>
+            <div class="modal-title">Bizga savol junating</div>
+            <input
+              type="name"
+              required
+              placeholder="Ismingiz"
+              name="name"
+              class="modal-input"
+            />
+            <input
+              type="phone"
+              required
+              placeholder="Telefon raqamingiz"
+              name="phone"
+              class="modal-input"
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Savolingiz"
+              class="modal-message"
+            ></textarea>
+
+            <button class="modal-btn">Jo'natish</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- ! Modal-section -->
+    <!-- Accordion-section -->
+    <div id="himoya" class="accordion">
+      <div class="acc-item">
+        <div class="acc-title">
+          <p>Himoya eritmasi tayyorlash</p>
+        </div>
+        <button class="acc-btn">Bordo suyuqligi tayyorlash<br /></button>
+        <div class="panel">
+          <p>
+            Mis kuparosi va ohak Bordo suyuqligining asosi hisoblanadi.100 gr
+            Mis kuparosi sopol idishlar, yog'och, mis yoki shisha idishlarda 1
+            litr iliq suvda eritiladi. Boshqa idishda,100 gr ohak 1 litr suvda
+            so'ndiriladi. Bir biriga qo'shib yog'och qoshiq bilan yaxshilab
+            aralashtiriladi. ustiga 10 litr bo'lgunicha suv quyiladi.Bir foizli
+            eritma tayyor. Uch foizli tayyorlash uchun 300 gr ohak 300gr mis
+            kuparosi eritiladi.
+          </p>
+        </div>
+        <button class="acc-btn">Bordo ishlatilishi<br /></button>
+        <div class="panel">
+          <p>
+            Olma daraxtida, moniliozga qarshi zang, dog 'va jigarrang barglarga
+            qarshi Bordo suyuqligidan foydalanish mumkin 6 marta vegetatsiya
+            davri uchun. Gilos ustida va kokkomikoz va klotterosporiyaga qarshi
+            olxo'ri Bordo aralashmasi bilan ishlanadi 4 marta mavsum uchun.
+            Pomidor va kartoshkada Bordo suyuqligi makrosporozga qarshi samarali
+            davolanadi 4 marta vegetatsiya davri uchun. Bodring va qovunda Bordo
+            suyuqligi peronosporoz, askokit, antraknoz, bakteriozga qarshi
+            ishlatiladi. 3 marta yoz davomida.
+          </p>
+        </div>
+        <button class="acc-btn">Iso tayyorlash</button>
+        <div class="panel">
+          <p>
+            6 kg oltingugurt 3 kg ohak kerak buladi.10 litr suvda 3kg ohak
+            sundiriladi ustiga 40 litr suv quyiladi. yaxshilab aralashtirib
+            ustiga 6 kg oltingugurt qushiladi suvi chup bilan ulchab
+            qo'yiladi.Va olov yoqiladi 1 soat qaynatiladi .Chup bilan o'lchab
+            turiladi suvi kamaysa ustiga suv quyish kerak.1 soat qaynagandan
+            so'ng sovutib to'gri tayyorlanganini tekshirish uchun 1 litrini
+            taroziga quyilganda 1200 dan 1300 gacha chiqishi kerak. endi sepish
+            mumkin 16 litrli aparatga 500 gram iso qushib sepiah kerak.
+          </p>
+        </div>
+        <button class="acc-btn">Iso ishlatilishi</button>
+        <div class="panel">
+          <p>
+            ISO qoraqo'tir, unshudring, chirish, peronosporoz, kulrang chirish,
+            uzum changi chirishiga qarshi samarali. ISO daraxtlarning qobig'ini
+            lishaynik va moxlardan yaxshi tozalaydi, bu ko'pchilik
+            zararkunandalar, ham Shomil, ham trips uchun halokatli. Qaynatma
+            ko'p asrlar oldin ixtiro qilingan. Sovet davrida u qishloq
+            xo'jaligining barcha tarmoqlarida keng qo'llanilgan. So'nggi
+            yillarda ko'plab fungitsidlar va to'g'ri tayyorlash usulini
+            bilmaslik tufayli fermerlar undan kamroq foydalanishdi.
+          </p>
+        </div>
+      </div>
+      <img class="acc-image" src="./img/bg/opriskivaniya.jpg" alt="" />
+    </div>
+    <!-- ! Accordion-section -->
+    <!-- Footer-section -->
+    <div class="footer">
+      <div class="footer-item">
+        <div class="footer-title">Bizni kuzatib boring</div>
+        <ul>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-telegram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+        </ul>
+        <p class="footer-end">Copirght @ 2021 Toshkent</p>
+      </div>
+      <div class="footer-text">
+        <p class="footer-text1">Foydalanilgan manbalar:</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          officiis dignissimos adipisci dolorum rerum nobis, explicabo in sit
+          laborum molestiae minus accusamus, odio perferendis voluptate deserunt
+          odit non, id tempora.
+        </p>
+      </div>
+    </div>
+    <!-- ! Footer-section -->
+
+    <script src="index.js"></script>
   </body>
 </html>
