@@ -286,10 +286,8 @@ window.addEventListener("DOMContentLoaded", () => {
     promotionContent[i].style.display = "block";
     promotionTab[i].classList.add("item-active");
   }
-
   proContent();
   showProContent();
-
   promotionParents.addEventListener("click", (e) => {
     if (e.target && e.target.classList.contains("promotion-item")) {
       promotionTab.forEach((tab, i) => {
