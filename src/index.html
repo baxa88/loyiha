@@ -738,7 +738,7 @@
     <div class="modal">
       <div class="modal-dialog">
         <div class="modal-content">
-          <form action="#">
+          <form action="#" id="form">
             <div class="modal-close">&times;</div>
             <div class="modal-title">Bizga savol junating</div>
             <input
@@ -757,12 +757,12 @@
             />
             <textarea
               name="message"
-              id="message"
+              id="message question-input"
               placeholder="Savolingiz"
               class="modal-message"
             ></textarea>
-
-            <button class="modal-btn">Jo'natish</button>
+            <div id="list"></div>
+            <button class="modal-btn" id="submit">Jo'natish</button>
           </form>
         </div>
       </div>
@@ -861,6 +861,6 @@
     </div>
     <!-- ! Footer-section -->
     <script src="./typed.js"></script>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
