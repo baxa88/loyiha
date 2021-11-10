@@ -1,13 +1,13 @@
 window.addEventListener("DOMContentLoaded", () => {
-  let options = {
-    strings: [
-      "<i>Siz Agro-olam saytiga xush </i>kelibsiz. ",
-      "&amp; Bundan xursandmiz",
-    ],
-    typeSpeed: 80,
-  };
+  // let options = {
+  //   strings: [
+  //     "<i>Siz Agro-Olam saytiga hush </i> kelibsiz ",
+  //     "&amp; Bundan hursandmiz",
+  //   ],
+  //   typeSpeed: 80,
+  // };
 
-  let typed = new Typed(".element", options);
+  // let typed = new Typed(".element", options);
 
   // Api-section
 
