@@ -1,15 +1,15 @@
 window.addEventListener("DOMContentLoaded", () => {
-  // let options = {
-  //   strings: [
-  //     "<i>Siz Agro-Olam saytiga hush </i> kelibsiz ",
-  //     "&amp; Bundan hursandmiz",
-  //   ],
-  //   typeSpeed: 80,
-  // };
+  let options = {
+    strings: [
+      "<i>Siz Agro-Olam saytiga hush </i> kelibsiz ",
+      "&amp; Bundan hursandmiz",
+    ],
+    typeSpeed: 80,
+  };
 
-  // let typed = new Typed(".element", options);
+  let typed = new Typed(".element", options);
 
-  // Api-section
+  // Api - section;
 
   const api = {
     key: "e71571d2dba689fd3b61395d0ecc870c",
