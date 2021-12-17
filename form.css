@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+  width: 100%;
+  scroll-behavior: none;
+}
+.respons {
+  font-size: 25px;
+  font-weight: 700;
+}

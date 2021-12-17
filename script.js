@@ -272,20 +272,20 @@ heart.forEach((item) => {
 });
 
 //Modal-section
-const modal = document.querySelector(".modal-section"),
-  btns = document.querySelectorAll(".btn-modal"),
-  close = document.querySelector(".close");
+// const modal = document.querySelector(".modal-section"),
+//   btns = document.querySelectorAll(".btn-modal"),
+//   close = document.querySelector(".close");
 
-btns.forEach((btn) => {
-  btn.addEventListener("click", openModal);
-});
-function openModal() {
-  modal.style.display = "block";
-}
-function closeModal() {
-  modal.style.display = "none";
-}
-close.addEventListener("click", closeModal);
+// btns.forEach((btn) => {
+//   btn.addEventListener("click", openModal);
+// });
+// function openModal() {
+//   modal.style.display = "block";
+// }
+// function closeModal() {
+//   modal.style.display = "none";
+// }
+// close.addEventListener("click", closeModal);
 // ! Modal-section
 // Accordion-section
 const accBtn = document.querySelectorAll(".acc-btn");

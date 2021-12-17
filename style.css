@@ -131,7 +131,8 @@ h2 {
   font-weight: 600;
   color: rgb(86, 209, 112);
 }
-button {
+button,
+.btn-modal {
   padding: 1rem 3rem;
   margin: 0 1rem;
   background-color: rgb(53, 53, 116);
@@ -142,7 +143,8 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-button:hover {
+
+.btn-modal:hover {
   background-color: blue;
 }
 .land-items {
